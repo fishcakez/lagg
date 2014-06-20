@@ -1,0 +1,13 @@
+{application, lagg,
+ [
+  {description, "lagg"},
+  {vsn, "0.0.1"},
+  {registered, [lagg_sup]},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  runtime_tools
+                 ]},
+  {mod, {lagg_app, []}},
+  {env, []}
+ ]}.
